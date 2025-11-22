@@ -46,12 +46,5 @@ public class Controlador {
     }
 
     // Punto de entrada
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-            Conversor modelo = new Conversor();
-            Vista vista = new Vista();
-            new Controlador(modelo, vista);
-            vista.setVisible(true);
-        });
-    }
+   
 }
